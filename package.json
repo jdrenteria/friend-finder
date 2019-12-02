@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jdrenteria/friend-finder#readme",
   "dependencies": {
     "body": "^5.1.0",
+    "bootstrap-icons": "^1.0.0-alpha",
     "express": "^4.17.1",
     "express.js": "^1.0.0",
     "parser": "^0.1.4",
