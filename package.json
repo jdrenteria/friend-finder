@@ -1,0 +1,27 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "This application will help locate new friends.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdrenteria/friend-finder.git"
+  },
+  "author": "Jesus Renteria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdrenteria/friend-finder/issues"
+  },
+  "homepage": "https://github.com/jdrenteria/friend-finder#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.17.1",
+    "express.js": "^1.0.0",
+    "parser": "^0.1.4",
+    "path": "^0.12.7"
+  }
+}
