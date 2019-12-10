@@ -23,6 +23,14 @@ module.exports = function (app){
             name: req.body.name,
             photo: req.body.photo,
             scores = b
-        }
+        };
+
+        console.log("Name:" + userName);
+        console.log("User score" + userScores);
+
+        var sum = b.reduce((a, b) => a + b, 0);
+        console.log("Sum of users score" + sum);
+        console.log("Best match friend diff" + bestMatch.friendDifference);
+        console.log("++++++++++==============================================");
     });
 };
