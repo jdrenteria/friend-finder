@@ -32,5 +32,17 @@ module.exports = function (app){
         console.log("Sum of users score" + sum);
         console.log("Best match friend diff" + bestMatch.friendDifference);
         console.log("++++++++++==============================================");
+
+        for (var i = 0; i < friends.length; i++){
+            console.log(firends[i].name);
+            totalDifference = 0;
+            console.log ("Total Diff" + totalDifference);
+            console.log ("Best match friends diff" + bestMatch.friendDifference);
+
+            var bfriendScore = friends[i].scores.reduce((a, b) => a + b, 0);
+            console.log("Total friends score" + bfriendScore);
+            totalDifference += Math.abs(SUM - bfriendScore);
+            console.log("-------------------------->" + totalDifference);
+        }
     });
 };
